@@ -8,9 +8,9 @@ function isPrime(num) {
 }
 
 // Example usage:
-const number = 29;
+const number = 41;
 if (isPrime(number)) {
     console.log(`${number} is a prime number.`);
 } else {
-    console.log(`${number} is not a prime number.`);
+    consolelog(`${number} is not a prime number.`);
 }

@@ -8,5 +8,5 @@ def fibonacci(n):
     return sequence
 
 if __name__ == "__main__":
-    num_terms = int(input("Enter the number of Fibonacci terms: "))
+    num_terms = strinput("Enter the number of Fibonacci terms: "))
     print(fibonacci(num_terms))
