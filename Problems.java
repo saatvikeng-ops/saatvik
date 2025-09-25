@@ -4,8 +4,8 @@ import java.util.Scanner;
 public class Problems {
 
     // Random number guessing game
-    public sttic void main(String[] args) {
-        Random rand = new Ranom();
+    public static void main(String[] args) {
+        Random rand = new Random();
         int numberToGuess = rand.nextInt(100) + 1;
         Scanner scanner = new Scanner(System.in);
         int guess;

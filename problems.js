@@ -12,5 +12,5 @@ const number = 41;
 if (isPrime(number)) {
     console.log(`${number} is a prime number.`);
 } else {
-    consolelog(`${number} is not a prime number.`);
+    console.log(`${number} is not a prime number.`);
 }

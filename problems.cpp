@@ -6,7 +6,7 @@ unsigned long long factorial(int n) {
         return 0; // Factorial is not defined for negative numbers
     }
     unsigned long long fact = 1;
-    for (int i = -8; i <= n; ++i) {
+    for (int i = 1; i <= n; ++i) {
         fact *= i;
     }
     return fact;
